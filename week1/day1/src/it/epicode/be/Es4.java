@@ -12,11 +12,7 @@ public class Es4 {
 	}
 
 	private static boolean pariDispari(int num) {
-		if (num % 2 == 0) {
-			return true;
-		} else {
-			return false;
-		}
+		return num % 2 == 0;
 	}
 
 	private static double perimetroRettangolo(double side1, double side2) {
