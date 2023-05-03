@@ -1,15 +1,16 @@
 package src.com.epicode.classiJava.es3;
 
 public class Articolo {
-    private String codice="";
-    private String descrizione="";
-    private double prezzo=0;
-    private int quantita=0;
+    private String codice;
+    private String descrizione;
+    private double prezzo;
+    private int quantita;
 
     public Articolo(String codice, String descrizione, double prezzo, int quantita) {
         this.codice = codice;
         this.descrizione = descrizione;
         this.prezzo = prezzo;
+        this.quantita = quantita;
     }
 
     public double getPrezzo() {

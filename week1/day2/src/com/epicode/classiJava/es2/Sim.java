@@ -1,12 +1,14 @@
 package src.com.epicode.classiJava.es2;
 
 public class Sim {
-    private String numero = "";
-    private double credito = 0;
-    private Chiamata[] registro = new Chiamata[5];
+    private String numero;
+    private double credito;
+    private Chiamata[] registro;
 
     public Sim(String numero) {
         this.numero = numero;
+        this.credito = 0;
+        this.registro = new Chiamata[5];
     }
 
     public void aggiungiChiamata(Chiamata chiamata) {
