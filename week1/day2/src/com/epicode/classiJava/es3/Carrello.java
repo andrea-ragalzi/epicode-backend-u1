@@ -3,13 +3,13 @@ package src.com.epicode.classiJava.es3;
 public class Carrello {
     private Cliente cliente;
     private Articolo[] articoli;
-    private double totale=0;
+    private double totale = 0;
 
     public Carrello(Cliente cliente, Articolo[] articoli) {
         this.cliente = cliente;
         this.articoli = articoli;
         for (Articolo articolo : this.articoli) {
-            this.totale+=articolo.getPrezzo();
+            this.totale += articolo.getPrezzo();
         }
 
     }
