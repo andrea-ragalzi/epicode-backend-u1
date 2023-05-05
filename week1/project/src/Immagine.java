@@ -1,6 +1,3 @@
-package src.epicode.it.ragalzi;
-
-// Classe per le immagini
 class Immagine extends Multimedia implements Luminosita {
     private int luminosita;
 

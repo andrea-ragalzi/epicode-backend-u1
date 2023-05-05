@@ -1,6 +1,3 @@
-package src.epicode.it.ragalzi;
-
-// Classe per le registrazioni audio
 class Registrazione extends Multimedia implements Riproducibile, Volume {
     private int durata;
     private int volume;

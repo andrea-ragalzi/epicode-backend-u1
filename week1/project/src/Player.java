@@ -1,5 +1,3 @@
-package src.epicode.it.ragalzi;
-
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
@@ -34,7 +32,10 @@ public class Player {
                     ((Immagine) elem).show();
                 }
             } catch (ArrayIndexOutOfBoundsException error) {
-                System.out.println("Scelta non valida");
+                if (scelta != 0) {
+                    System.out.println("Scelta non valida");
+                    input.next();
+                }
             } catch (InputMismatchException error) {
                 System.out.println("Scelta non valida");
                 input.next();

@@ -1,5 +1,3 @@
-package src.epicode.it.ragalzi;
-
 abstract class Multimedia {
     protected String titolo;
 

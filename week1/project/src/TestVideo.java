@@ -1,5 +1,3 @@
-package src.epicode.it.ragalzi;
-
 public class TestVideo {
     public static void main(String[] args) {
         Video video = new Video("Titanic", 8, 5, 7);

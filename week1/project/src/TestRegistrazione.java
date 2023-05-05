@@ -1,5 +1,3 @@
-package src.epicode.it.ragalzi;
-
 public class TestRegistrazione {
     public static void main(String[] args) {
         Registrazione registrazione = new Registrazione("Fiume", 3, 5);

@@ -1,6 +1,3 @@
-package src.epicode.it.ragalzi;
-
-// Classe per i video
 class Video extends Multimedia implements Riproducibile, Volume, Luminosita {
     private int durata;
     private int volume;

@@ -1,5 +1,3 @@
-package src.epicode.it.ragalzi;
-
 public class TestImmagine {
     public static void main(String[] args) {
         Immagine immagine = new Immagine("Venere", 50);
