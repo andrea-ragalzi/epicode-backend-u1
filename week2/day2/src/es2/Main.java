@@ -6,8 +6,7 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList<Integer>();
-        numbers = randomNumbers(3);
+        List<Integer> numbers = new ArrayList<Integer>(randomNumbers(3));
         System.out.println("Random numbers: " + numbers);
         System.out.println("Random numbers + numbers reversed " + concatInverse(numbers));
         System.out.println("Even positions: " + positionEven(numbers, true));

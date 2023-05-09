@@ -24,10 +24,9 @@ public class Main {
         }
         while (elements-- > 0) {
             String word = scanner.next();
-            if (data.contains(word)) {
+            if (!data.add(word)) {
                 duplicate.add(word);
             }
-            data.add(word);
         }
         System.out.println("Distinct words: " + data);
         System.out.println("Distinct words size: " + data.size());
