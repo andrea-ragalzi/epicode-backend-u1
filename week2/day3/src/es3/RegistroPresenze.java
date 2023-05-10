@@ -18,14 +18,14 @@ public class RegistroPresenze {
 
     public void leggiPresenze() throws IOException {
         String data = FileUtils.readFileToString(new File("src/es3/presenze.txt"), "UTF-8");
-        String[] presenzeString = data.split("#"); // Dividi la stringa in un array di stringhe
+        String[] presenzeString = data.split("#");
         Presenza[] presenze = new Presenza[presenzeString.length];
         for (int i = 0; i < presenzeString.length; i++) {
             Presenza presenza = new Presenza(presenzeString[i].split("@")[0],
                     Integer.parseInt(presenzeString[i].trim().split("@")[1]));
             presenze[i] = presenza;
         }
-        this.presenze = presenze; // Aggiorna l'array di presenze dell'oggetto RegistroPresenze
+        this.presenze = presenze;
     }
 
     public void salvaPresenze() throws IOException {
