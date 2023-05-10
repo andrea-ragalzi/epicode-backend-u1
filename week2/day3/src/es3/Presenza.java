@@ -25,4 +25,9 @@ public class Presenza {
     public void incrementa() {
         this.numeroPresenze++;
     }
+
+    @Override
+    public String toString() {
+        return this.nomeDipendente + "@" + this.numeroPresenze;
+    }
 }
