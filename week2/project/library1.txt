@@ -1,0 +1,158 @@
+Book{
+	isbn='00008',
+ 	title='Book 8',
+ 	year=2016,
+ 	numPages=460,
+ 	author='Author 3',
+ 	genre='Genre 8'
+}
+Magazine{
+	isbn='00019',
+	title='Magazine 19',
+	year=2020,
+	numPages=479,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00009',
+	title='Magazine 9',
+	year=2018,
+	numPages=388,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00002',
+ 	title='Book 2',
+ 	year=2010,
+ 	numPages=361,
+ 	author='Author 2',
+ 	genre='Genre 2'
+}
+Magazine{
+	isbn='00013',
+	title='Magazine 13',
+	year=2012,
+	numPages=423,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00003',
+	title='Magazine 3',
+	year=2018,
+	numPages=313,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00014',
+ 	title='Book 14',
+ 	year=2013,
+ 	numPages=285,
+ 	author='Author 4',
+ 	genre='Genre 14'
+}
+Magazine{
+	isbn='00011',
+	title='Magazine 11',
+	year=2015,
+	numPages=486,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00001',
+	title='Magazine 1',
+	year=2018,
+	numPages=209,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00012',
+ 	title='Book 12',
+ 	year=2011,
+ 	numPages=201,
+ 	author='Author 2',
+ 	genre='Genre 12'
+}
+Book{
+	isbn='00006',
+ 	title='Book 6',
+ 	year=2019,
+ 	numPages=500,
+ 	author='Author 1',
+ 	genre='Genre 6'
+}
+Magazine{
+	isbn='00017',
+	title='Magazine 17',
+	year=2023,
+	numPages=236,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00007',
+	title='Magazine 7',
+	year=2023,
+	numPages=201,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00018',
+ 	title='Book 18',
+ 	year=2015,
+ 	numPages=332,
+ 	author='Author 3',
+ 	genre='Genre 18'
+}
+Book{
+	isbn='00004',
+ 	title='Book 4',
+ 	year=2013,
+ 	numPages=274,
+ 	author='Author 4',
+ 	genre='Genre 4'
+}
+Magazine{
+	isbn='00015',
+	title='Magazine 15',
+	year=2019,
+	numPages=361,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00005',
+	title='Magazine 5',
+	year=2017,
+	numPages=293,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00016',
+ 	title='Book 16',
+ 	year=2014,
+ 	numPages=266,
+ 	author='Author 1',
+ 	genre='Genre 16'
+}
+Book{
+	isbn='00020',
+ 	title='Book 20',
+ 	year=2020,
+ 	numPages=378,
+ 	author='Author 0',
+ 	genre='Genre 20'
+}
+Book{
+	isbn='00010',
+ 	title='Book 10',
+ 	year=2016,
+ 	numPages=475,
+ 	author='Author 0',
+ 	genre='Genre 10'
+}
+Book{
+	isbn='00021',
+ 	title='Book 21',
+ 	year=2018,
+ 	numPages=234,
+ 	author='Author 20',
+ 	genre='Genre 20'
+}
