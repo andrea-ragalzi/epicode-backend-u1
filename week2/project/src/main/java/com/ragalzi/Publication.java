@@ -6,7 +6,13 @@ public abstract class Publication {
     private int year;
     private int numPages;
 
-    // constructor
+    public Publication() {
+        this.isbn = null;
+        this.title = null;
+        this.year = 0;
+        this.numPages = 0;
+    }
+
     public Publication(String title, int year, int numPages) {
         this.isbn = null;
         this.title = title;
@@ -18,7 +24,7 @@ public abstract class Publication {
         return this.isbn;
     }
 
-    public void setIsbn(String isbn) {
+    protected void setIsbn(String isbn) {
         this.isbn = isbn;
     }
 
@@ -26,11 +32,23 @@ public abstract class Publication {
         return this.title;
     }
 
+    protected void setTitle(String title) {
+        this.title = title;
+    }
+
     public int getYear() {
         return this.year;
     }
 
+    protected void setYear(int year) {
+        this.year = year;
+    }
+
     public int getNumPages() {
         return this.numPages;
+    }
+
+    protected void setNumPages(int numPages) {
+        this.numPages = numPages;
     }
 }
