@@ -1,158 +1,3758 @@
 Book{
-	isbn='00008',
- 	title='Book 8',
- 	year=2016,
- 	numPages=460,
+	isbn='00501',
+ 	title='Book 21',
+ 	year=2013,
+ 	numPages=401,
+ 	author='Author 20',
+ 	genre='Genre 20'
+}
+Book{
+	isbn='00500',
+ 	title='Book 500',
+ 	year=2021,
+ 	numPages=202,
+ 	author='Author 0',
+ 	genre='Genre 500'
+}
+Book{
+	isbn='00208',
+ 	title='Book 208',
+ 	year=2017,
+ 	numPages=375,
  	author='Author 3',
- 	genre='Genre 8'
+ 	genre='Genre 208'
 }
 Magazine{
-	isbn='00019',
-	title='Magazine 19',
-	year=2020,
-	numPages=479,
+	isbn='00329',
+	title='Magazine 329',
+	year=2016,
+	numPages=308,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00209',
+	title='Magazine 209',
+	year=2017,
+	numPages=233,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00206',
+ 	title='Book 206',
+ 	year=2012,
+ 	numPages=342,
+ 	author='Author 1',
+ 	genre='Genre 206'
+}
+Magazine{
+	isbn='00327',
+	title='Magazine 327',
+	year=2017,
+	numPages=340,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00449',
+	title='Magazine 449',
+	year=2010,
+	numPages=265,
 	periodicity='SEMIANNUAL'
 }
 Magazine{
-	isbn='00009',
-	title='Magazine 9',
+	isbn='00207',
+	title='Magazine 207',
+	year=2012,
+	numPages=239,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00328',
+ 	title='Book 328',
+ 	year=2011,
+ 	numPages=214,
+ 	author='Author 3',
+ 	genre='Genre 328'
+}
+Book{
+	isbn='00448',
+ 	title='Book 448',
+ 	year=2018,
+ 	numPages=474,
+ 	author='Author 3',
+ 	genre='Genre 448'
+}
+Book{
+	isbn='00200',
+ 	title='Book 200',
+ 	year=2015,
+ 	numPages=335,
+ 	author='Author 0',
+ 	genre='Genre 200'
+}
+Magazine{
+	isbn='00321',
+	title='Magazine 321',
+	year=2021,
+	numPages=253,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00443',
+	title='Magazine 443',
+	year=2016,
+	numPages=290,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00201',
+	title='Magazine 201',
+	year=2023,
+	numPages=304,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00322',
+ 	title='Book 322',
+ 	year=2014,
+ 	numPages=498,
+ 	author='Author 2',
+ 	genre='Genre 322'
+}
+Book{
+	isbn='00442',
+ 	title='Book 442',
+ 	year=2020,
+ 	numPages=490,
+ 	author='Author 2',
+ 	genre='Genre 442'
+}
+Magazine{
+	isbn='00441',
+	title='Magazine 441',
+	year=2015,
+	numPages=360,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00320',
+ 	title='Book 320',
+ 	year=2011,
+ 	numPages=232,
+ 	author='Author 0',
+ 	genre='Genre 320'
+}
+Book{
+	isbn='00440',
+ 	title='Book 440',
+ 	year=2010,
+ 	numPages=285,
+ 	author='Author 0',
+ 	genre='Genre 440'
+}
+Book{
+	isbn='00204',
+ 	title='Book 204',
+ 	year=2021,
+ 	numPages=391,
+ 	author='Author 4',
+ 	genre='Genre 204'
+}
+Magazine{
+	isbn='00325',
+	title='Magazine 325',
+	year=2021,
+	numPages=254,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00447',
+	title='Magazine 447',
+	year=2019,
+	numPages=379,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00205',
+	title='Magazine 205',
+	year=2014,
+	numPages=440,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00326',
+ 	title='Book 326',
+ 	year=2023,
+ 	numPages=493,
+ 	author='Author 1',
+ 	genre='Genre 326'
+}
+Book{
+	isbn='00446',
+ 	title='Book 446',
+ 	year=2011,
+ 	numPages=335,
+ 	author='Author 1',
+ 	genre='Genre 446'
+}
+Book{
+	isbn='00202',
+ 	title='Book 202',
+ 	year=2017,
+ 	numPages=393,
+ 	author='Author 2',
+ 	genre='Genre 202'
+}
+Magazine{
+	isbn='00323',
+	title='Magazine 323',
+	year=2012,
+	numPages=309,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00445',
+	title='Magazine 445',
+	year=2012,
+	numPages=478,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00203',
+	title='Magazine 203',
+	year=2017,
+	numPages=372,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00324',
+ 	title='Book 324',
+ 	year=2010,
+ 	numPages=403,
+ 	author='Author 4',
+ 	genre='Genre 324'
+}
+Book{
+	isbn='00444',
+ 	title='Book 444',
+ 	year=2013,
+ 	numPages=314,
+ 	author='Author 4',
+ 	genre='Genre 444'
+}
+Book{
+	isbn='00318',
+ 	title='Book 318',
+ 	year=2014,
+ 	numPages=313,
+ 	author='Author 3',
+ 	genre='Genre 318'
+}
+Magazine{
+	isbn='00319',
+	title='Magazine 319',
+	year=2014,
+	numPages=279,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00439',
+	title='Magazine 439',
+	year=2020,
+	numPages=377,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00316',
+ 	title='Book 316',
+ 	year=2017,
+ 	numPages=341,
+ 	author='Author 1',
+ 	genre='Genre 316'
+}
+Book{
+	isbn='00438',
+ 	title='Book 438',
+ 	year=2017,
+ 	numPages=227,
+ 	author='Author 3',
+ 	genre='Genre 438'
+}
+Magazine{
+	isbn='00317',
+	title='Magazine 317',
+	year=2019,
+	numPages=246,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00437',
+	title='Magazine 437',
+	year=2022,
+	numPages=324,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00310',
+ 	title='Book 310',
+ 	year=2012,
+ 	numPages=261,
+ 	author='Author 0',
+ 	genre='Genre 310'
+}
+Book{
+	isbn='00432',
+ 	title='Book 432',
+ 	year=2023,
+ 	numPages=391,
+ 	author='Author 2',
+ 	genre='Genre 432'
+}
+Magazine{
+	isbn='00311',
+	title='Magazine 311',
+	year=2021,
+	numPages=401,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00431',
+	title='Magazine 431',
+	year=2011,
+	numPages=385,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00430',
+ 	title='Book 430',
+ 	year=2020,
+ 	numPages=453,
+ 	author='Author 0',
+ 	genre='Genre 430'
+}
+Book{
+	isbn='00314',
+ 	title='Book 314',
+ 	year=2014,
+ 	numPages=418,
+ 	author='Author 4',
+ 	genre='Genre 314'
+}
+Book{
+	isbn='00436',
+ 	title='Book 436',
+ 	year=2018,
+ 	numPages=305,
+ 	author='Author 1',
+ 	genre='Genre 436'
+}
+Magazine{
+	isbn='00315',
+	title='Magazine 315',
+	year=2012,
+	numPages=457,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00435',
+	title='Magazine 435',
+	year=2015,
+	numPages=447,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00312',
+ 	title='Book 312',
+ 	year=2021,
+ 	numPages=235,
+ 	author='Author 2',
+ 	genre='Genre 312'
+}
+Book{
+	isbn='00434',
+ 	title='Book 434',
+ 	year=2016,
+ 	numPages=270,
+ 	author='Author 4',
+ 	genre='Genre 434'
+}
+Magazine{
+	isbn='00313',
+	title='Magazine 313',
+	year=2015,
+	numPages=312,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00433',
+	title='Magazine 433',
+	year=2012,
+	numPages=261,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00109',
+	title='Magazine 109',
+	year=2010,
+	numPages=471,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00107',
+	title='Magazine 107',
+	year=2011,
+	numPages=337,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00228',
+ 	title='Book 228',
+ 	year=2015,
+ 	numPages=465,
+ 	author='Author 3',
+ 	genre='Genre 228'
+}
+Magazine{
+	isbn='00349',
+	title='Magazine 349',
+	year=2020,
+	numPages=378,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00108',
+ 	title='Book 108',
+ 	year=2015,
+ 	numPages=304,
+ 	author='Author 3',
+ 	genre='Genre 108'
+}
+Magazine{
+	isbn='00229',
+	title='Magazine 229',
+	year=2013,
+	numPages=279,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00101',
+	title='Magazine 101',
 	year=2018,
+	numPages=430,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00222',
+ 	title='Book 222',
+ 	year=2015,
+ 	numPages=483,
+ 	author='Author 2',
+ 	genre='Genre 222'
+}
+Magazine{
+	isbn='00343',
+	title='Magazine 343',
+	year=2010,
+	numPages=253,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00465',
+	title='Magazine 465',
+	year=2016,
+	numPages=456,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00102',
+ 	title='Book 102',
+ 	year=2014,
+ 	numPages=224,
+ 	author='Author 2',
+ 	genre='Genre 102'
+}
+Magazine{
+	isbn='00223',
+	title='Magazine 223',
+	year=2015,
+	numPages=435,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00344',
+ 	title='Book 344',
+ 	year=2017,
+ 	numPages=321,
+ 	author='Author 4',
+ 	genre='Genre 344'
+}
+Book{
+	isbn='00464',
+ 	title='Book 464',
+ 	year=2011,
+ 	numPages=405,
+ 	author='Author 4',
+ 	genre='Genre 464'
+}
+Book{
+	isbn='00220',
+ 	title='Book 220',
+ 	year=2011,
+ 	numPages=240,
+ 	author='Author 0',
+ 	genre='Genre 220'
+}
+Magazine{
+	isbn='00341',
+	title='Magazine 341',
+	year=2011,
+	numPages=380,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00463',
+	title='Magazine 463',
+	year=2011,
+	numPages=280,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00100',
+ 	title='Book 100',
+ 	year=2020,
+ 	numPages=359,
+ 	author='Author 0',
+ 	genre='Genre 100'
+}
+Magazine{
+	isbn='00221',
+	title='Magazine 221',
+	year=2023,
+	numPages=400,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00342',
+ 	title='Book 342',
+ 	year=2022,
+ 	numPages=211,
+ 	author='Author 2',
+ 	genre='Genre 342'
+}
+Book{
+	isbn='00462',
+ 	title='Book 462',
+ 	year=2014,
+ 	numPages=395,
+ 	author='Author 2',
+ 	genre='Genre 462'
+}
+Magazine{
+	isbn='00105',
+	title='Magazine 105',
+	year=2016,
+	numPages=340,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00226',
+ 	title='Book 226',
+ 	year=2014,
+ 	numPages=497,
+ 	author='Author 1',
+ 	genre='Genre 226'
+}
+Magazine{
+	isbn='00347',
+	title='Magazine 347',
+	year=2023,
+	numPages=244,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00469',
+	title='Magazine 469',
+	year=2012,
+	numPages=436,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00106',
+ 	title='Book 106',
+ 	year=2023,
+ 	numPages=304,
+ 	author='Author 1',
+ 	genre='Genre 106'
+}
+Magazine{
+	isbn='00227',
+	title='Magazine 227',
+	year=2016,
+	numPages=334,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00348',
+ 	title='Book 348',
+ 	year=2011,
+ 	numPages=350,
+ 	author='Author 3',
+ 	genre='Genre 348'
+}
+Book{
+	isbn='00468',
+ 	title='Book 468',
+ 	year=2018,
+ 	numPages=450,
+ 	author='Author 3',
+ 	genre='Genre 468'
+}
+Magazine{
+	isbn='00103',
+	title='Magazine 103',
+	year=2010,
+	numPages=435,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00224',
+ 	title='Book 224',
+ 	year=2015,
+ 	numPages=273,
+ 	author='Author 4',
+ 	genre='Genre 224'
+}
+Magazine{
+	isbn='00345',
+	title='Magazine 345',
+	year=2017,
+	numPages=252,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00467',
+	title='Magazine 467',
+	year=2021,
+	numPages=289,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00104',
+ 	title='Book 104',
+ 	year=2013,
+ 	numPages=248,
+ 	author='Author 4',
+ 	genre='Genre 104'
+}
+Magazine{
+	isbn='00225',
+	title='Magazine 225',
+	year=2018,
+	numPages=310,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00346',
+ 	title='Book 346',
+ 	year=2015,
+ 	numPages=358,
+ 	author='Author 1',
+ 	genre='Genre 346'
+}
+Book{
+	isbn='00466',
+ 	title='Book 466',
+ 	year=2010,
+ 	numPages=253,
+ 	author='Author 1',
+ 	genre='Genre 466'
+}
+Magazine{
+	isbn='00461',
+	title='Magazine 461',
+	year=2013,
+	numPages=214,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00340',
+ 	title='Book 340',
+ 	year=2015,
+ 	numPages=410,
+ 	author='Author 0',
+ 	genre='Genre 340'
+}
+Book{
+	isbn='00460',
+ 	title='Book 460',
+ 	year=2023,
+ 	numPages=342,
+ 	author='Author 0',
+ 	genre='Genre 460'
+}
+Magazine{
+	isbn='00219',
+	title='Magazine 219',
+	year=2013,
+	numPages=290,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00217',
+	title='Magazine 217',
+	year=2017,
+	numPages=437,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00338',
+ 	title='Book 338',
+ 	year=2013,
+ 	numPages=335,
+ 	author='Author 3',
+ 	genre='Genre 338'
+}
+Book{
+	isbn='00218',
+ 	title='Book 218',
+ 	year=2020,
+ 	numPages=207,
+ 	author='Author 3',
+ 	genre='Genre 218'
+}
+Magazine{
+	isbn='00339',
+	title='Magazine 339',
+	year=2022,
+	numPages=463,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00459',
+	title='Magazine 459',
+	year=2020,
+	numPages=307,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00211',
+	title='Magazine 211',
+	year=2017,
+	numPages=304,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00332',
+ 	title='Book 332',
+ 	year=2010,
+ 	numPages=451,
+ 	author='Author 2',
+ 	genre='Genre 332'
+}
+Book{
+	isbn='00454',
+ 	title='Book 454',
+ 	year=2015,
+ 	numPages=227,
+ 	author='Author 4',
+ 	genre='Genre 454'
+}
+Book{
+	isbn='00212',
+ 	title='Book 212',
+ 	year=2020,
+ 	numPages=371,
+ 	author='Author 2',
+ 	genre='Genre 212'
+}
+Magazine{
+	isbn='00333',
+	title='Magazine 333',
+	year=2018,
+	numPages=403,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00453',
+	title='Magazine 453',
+	year=2017,
+	numPages=387,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00330',
+ 	title='Book 330',
+ 	year=2021,
+ 	numPages=471,
+ 	author='Author 0',
+ 	genre='Genre 330'
+}
+Book{
+	isbn='00452',
+ 	title='Book 452',
+ 	year=2010,
+ 	numPages=219,
+ 	author='Author 2',
+ 	genre='Genre 452'
+}
+Book{
+	isbn='00210',
+ 	title='Book 210',
+ 	year=2012,
+ 	numPages=401,
+ 	author='Author 0',
+ 	genre='Genre 210'
+}
+Magazine{
+	isbn='00331',
+	title='Magazine 331',
+	year=2023,
+	numPages=262,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00451',
+	title='Magazine 451',
+	year=2017,
+	numPages=468,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00215',
+	title='Magazine 215',
+	year=2014,
+	numPages=455,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00336',
+ 	title='Book 336',
+ 	year=2020,
+ 	numPages=302,
+ 	author='Author 1',
+ 	genre='Genre 336'
+}
+Book{
+	isbn='00458',
+ 	title='Book 458',
+ 	year=2023,
+ 	numPages=367,
+ 	author='Author 3',
+ 	genre='Genre 458'
+}
+Book{
+	isbn='00216',
+ 	title='Book 216',
+ 	year=2014,
+ 	numPages=273,
+ 	author='Author 1',
+ 	genre='Genre 216'
+}
+Magazine{
+	isbn='00337',
+	title='Magazine 337',
+	year=2017,
+	numPages=267,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00457',
+	title='Magazine 457',
+	year=2010,
+	numPages=417,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00213',
+	title='Magazine 213',
+	year=2011,
+	numPages=251,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00334',
+ 	title='Book 334',
+ 	year=2014,
+ 	numPages=473,
+ 	author='Author 4',
+ 	genre='Genre 334'
+}
+Book{
+	isbn='00456',
+ 	title='Book 456',
+ 	year=2013,
+ 	numPages=246,
+ 	author='Author 1',
+ 	genre='Genre 456'
+}
+Book{
+	isbn='00214',
+ 	title='Book 214',
+ 	year=2014,
+ 	numPages=347,
+ 	author='Author 4',
+ 	genre='Genre 214'
+}
+Magazine{
+	isbn='00335',
+	title='Magazine 335',
+	year=2021,
+	numPages=322,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00455',
+	title='Magazine 455',
+	year=2018,
+	numPages=456,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00450',
+ 	title='Book 450',
+ 	year=2023,
+ 	numPages=310,
+ 	author='Author 0',
+ 	genre='Genre 450'
+}
+Magazine{
+	isbn='00407',
+	title='Magazine 407',
+	year=2019,
+	numPages=460,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00406',
+ 	title='Book 406',
+ 	year=2015,
+ 	numPages=202,
+ 	author='Author 1',
+ 	genre='Genre 406'
+}
+Magazine{
+	isbn='00405',
+	title='Magazine 405',
+	year=2014,
+	numPages=297,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00404',
+ 	title='Book 404',
+ 	year=2018,
+ 	numPages=264,
+ 	author='Author 4',
+ 	genre='Genre 404'
+}
+Magazine{
+	isbn='00409',
+	title='Magazine 409',
+	year=2010,
 	numPages=388,
 	periodicity='MONTHLY'
 }
 Book{
+	isbn='00408',
+ 	title='Book 408',
+ 	year=2016,
+ 	numPages=465,
+ 	author='Author 3',
+ 	genre='Genre 408'
+}
+Magazine{
+	isbn='00403',
+	title='Magazine 403',
+	year=2013,
+	numPages=270,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00402',
+ 	title='Book 402',
+ 	year=2021,
+ 	numPages=251,
+ 	author='Author 2',
+ 	genre='Genre 402'
+}
+Magazine{
+	isbn='00401',
+	title='Magazine 401',
+	year=2022,
+	numPages=276,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00400',
+ 	title='Book 400',
+ 	year=2011,
+ 	numPages=405,
+ 	author='Author 0',
+ 	genre='Genre 400'
+}
+Magazine{
+	isbn='00307',
+	title='Magazine 307',
+	year=2013,
+	numPages=484,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00429',
+	title='Magazine 429',
+	year=2019,
+	numPages=398,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00308',
+ 	title='Book 308',
+ 	year=2022,
+ 	numPages=488,
+ 	author='Author 3',
+ 	genre='Genre 308'
+}
+Book{
+	isbn='00428',
+ 	title='Book 428',
+ 	year=2012,
+ 	numPages=361,
+ 	author='Author 3',
+ 	genre='Genre 428'
+}
+Magazine{
+	isbn='00305',
+	title='Magazine 305',
+	year=2011,
+	numPages=428,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00427',
+	title='Magazine 427',
+	year=2017,
+	numPages=299,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00306',
+ 	title='Book 306',
+ 	year=2014,
+ 	numPages=426,
+ 	author='Author 1',
+ 	genre='Genre 306'
+}
+Book{
+	isbn='00426',
+ 	title='Book 426',
+ 	year=2022,
+ 	numPages=410,
+ 	author='Author 1',
+ 	genre='Genre 426'
+}
+Magazine{
+	isbn='00309',
+	title='Magazine 309',
+	year=2016,
+	numPages=373,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00421',
+	title='Magazine 421',
+	year=2018,
+	numPages=482,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00300',
+ 	title='Book 300',
+ 	year=2010,
+ 	numPages=375,
+ 	author='Author 0',
+ 	genre='Genre 300'
+}
+Book{
+	isbn='00420',
+ 	title='Book 420',
+ 	year=2021,
+ 	numPages=422,
+ 	author='Author 0',
+ 	genre='Genre 420'
+}
+Magazine{
+	isbn='00303',
+	title='Magazine 303',
+	year=2020,
+	numPages=285,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00425',
+	title='Magazine 425',
+	year=2013,
+	numPages=416,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00304',
+ 	title='Book 304',
+ 	year=2011,
+ 	numPages=252,
+ 	author='Author 4',
+ 	genre='Genre 304'
+}
+Book{
+	isbn='00424',
+ 	title='Book 424',
+ 	year=2015,
+ 	numPages=280,
+ 	author='Author 4',
+ 	genre='Genre 424'
+}
+Magazine{
+	isbn='00301',
+	title='Magazine 301',
+	year=2011,
+	numPages=389,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00423',
+	title='Magazine 423',
+	year=2015,
+	numPages=316,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00302',
+ 	title='Book 302',
+ 	year=2023,
+ 	numPages=242,
+ 	author='Author 2',
+ 	genre='Genre 302'
+}
+Book{
+	isbn='00422',
+ 	title='Book 422',
+ 	year=2014,
+ 	numPages=318,
+ 	author='Author 2',
+ 	genre='Genre 422'
+}
+Book{
+	isbn='00418',
+ 	title='Book 418',
+ 	year=2017,
+ 	numPages=270,
+ 	author='Author 3',
+ 	genre='Genre 418'
+}
+Magazine{
+	isbn='00417',
+	title='Magazine 417',
+	year=2014,
+	numPages=445,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00416',
+ 	title='Book 416',
+ 	year=2021,
+ 	numPages=372,
+ 	author='Author 1',
+ 	genre='Genre 416'
+}
+Magazine{
+	isbn='00415',
+	title='Magazine 415',
+	year=2023,
+	numPages=297,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00419',
+	title='Magazine 419',
+	year=2022,
+	numPages=243,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00410',
+ 	title='Book 410',
+ 	year=2018,
+ 	numPages=500,
+ 	author='Author 0',
+ 	genre='Genre 410'
+}
+Book{
+	isbn='00414',
+ 	title='Book 414',
+ 	year=2021,
+ 	numPages=255,
+ 	author='Author 4',
+ 	genre='Genre 414'
+}
+Magazine{
+	isbn='00413',
+	title='Magazine 413',
+	year=2014,
+	numPages=270,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00412',
+ 	title='Book 412',
+ 	year=2021,
+ 	numPages=389,
+ 	author='Author 2',
+ 	genre='Genre 412'
+}
+Magazine{
+	isbn='00411',
+	title='Magazine 411',
+	year=2023,
+	numPages=389,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00046',
+ 	title='Book 46',
+ 	year=2010,
+ 	numPages=210,
+ 	author='Author 1',
+ 	genre='Genre 46'
+}
+Magazine{
+	isbn='00167',
+	title='Magazine 167',
+	year=2011,
+	numPages=482,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00288',
+ 	title='Book 288',
+ 	year=2019,
+ 	numPages=308,
+ 	author='Author 3',
+ 	genre='Genre 288'
+}
+Magazine{
+	isbn='00047',
+	title='Magazine 47',
+	year=2015,
+	numPages=448,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00168',
+ 	title='Book 168',
+ 	year=2022,
+ 	numPages=405,
+ 	author='Author 3',
+ 	genre='Genre 168'
+}
+Magazine{
+	isbn='00289',
+	title='Magazine 289',
+	year=2014,
+	numPages=405,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00044',
+ 	title='Book 44',
+ 	year=2017,
+ 	numPages=244,
+ 	author='Author 4',
+ 	genre='Genre 44'
+}
+Magazine{
+	isbn='00165',
+	title='Magazine 165',
+	year=2022,
+	numPages=225,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00286',
+ 	title='Book 286',
+ 	year=2017,
+ 	numPages=493,
+ 	author='Author 1',
+ 	genre='Genre 286'
+}
+Magazine{
+	isbn='00045',
+	title='Magazine 45',
+	year=2021,
+	numPages=466,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00166',
+ 	title='Book 166',
+ 	year=2018,
+ 	numPages=448,
+ 	author='Author 1',
+ 	genre='Genre 166'
+}
+Magazine{
+	isbn='00287',
+	title='Magazine 287',
+	year=2018,
+	numPages=473,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00048',
+ 	title='Book 48',
+ 	year=2016,
+ 	numPages=263,
+ 	author='Author 3',
+ 	genre='Genre 48'
+}
+Magazine{
+	isbn='00169',
+	title='Magazine 169',
+	year=2012,
+	numPages=255,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00049',
+	title='Magazine 49',
+	year=2012,
+	numPages=369,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00280',
+ 	title='Book 280',
+ 	year=2018,
+ 	numPages=329,
+ 	author='Author 0',
+ 	genre='Genre 280'
+}
+Book{
+	isbn='00160',
+ 	title='Book 160',
+ 	year=2013,
+ 	numPages=457,
+ 	author='Author 0',
+ 	genre='Genre 160'
+}
+Magazine{
+	isbn='00281',
+	title='Magazine 281',
+	year=2017,
+	numPages=444,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00042',
+ 	title='Book 42',
+ 	year=2022,
+ 	numPages=311,
+ 	author='Author 2',
+ 	genre='Genre 42'
+}
+Magazine{
+	isbn='00163',
+	title='Magazine 163',
+	year=2019,
+	numPages=273,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00284',
+ 	title='Book 284',
+ 	year=2010,
+ 	numPages=274,
+ 	author='Author 4',
+ 	genre='Genre 284'
+}
+Magazine{
+	isbn='00043',
+	title='Magazine 43',
+	year=2015,
+	numPages=321,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00164',
+ 	title='Book 164',
+ 	year=2019,
+ 	numPages=258,
+ 	author='Author 4',
+ 	genre='Genre 164'
+}
+Magazine{
+	isbn='00285',
+	title='Magazine 285',
+	year=2017,
+	numPages=265,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00040',
+ 	title='Book 40',
+ 	year=2014,
+ 	numPages=371,
+ 	author='Author 0',
+ 	genre='Genre 40'
+}
+Magazine{
+	isbn='00161',
+	title='Magazine 161',
+	year=2010,
+	numPages=496,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00282',
+ 	title='Book 282',
+ 	year=2021,
+ 	numPages=453,
+ 	author='Author 2',
+ 	genre='Genre 282'
+}
+Magazine{
+	isbn='00041',
+	title='Magazine 41',
+	year=2023,
+	numPages=390,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00162',
+ 	title='Book 162',
+ 	year=2020,
+ 	numPages=343,
+ 	author='Author 2',
+ 	genre='Genre 162'
+}
+Magazine{
+	isbn='00283',
+	title='Magazine 283',
+	year=2017,
+	numPages=436,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00035',
+	title='Magazine 35',
+	year=2015,
+	numPages=247,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00156',
+ 	title='Book 156',
+ 	year=2010,
+ 	numPages=344,
+ 	author='Author 1',
+ 	genre='Genre 156'
+}
+Magazine{
+	isbn='00277',
+	title='Magazine 277',
+	year=2016,
+	numPages=468,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00399',
+	title='Magazine 399',
+	year=2011,
+	numPages=227,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00036',
+ 	title='Book 36',
+ 	year=2022,
+ 	numPages=346,
+ 	author='Author 1',
+ 	genre='Genre 36'
+}
+Magazine{
+	isbn='00157',
+	title='Magazine 157',
+	year=2022,
+	numPages=466,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00278',
+ 	title='Book 278',
+ 	year=2018,
+ 	numPages=205,
+ 	author='Author 3',
+ 	genre='Genre 278'
+}
+Book{
+	isbn='00398',
+ 	title='Book 398',
+ 	year=2013,
+ 	numPages=480,
+ 	author='Author 3',
+ 	genre='Genre 398'
+}
+Magazine{
+	isbn='00033',
+	title='Magazine 33',
+	year=2022,
+	numPages=255,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00154',
+ 	title='Book 154',
+ 	year=2015,
+ 	numPages=272,
+ 	author='Author 4',
+ 	genre='Genre 154'
+}
+Magazine{
+	isbn='00275',
+	title='Magazine 275',
+	year=2019,
+	numPages=258,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00397',
+	title='Magazine 397',
+	year=2021,
+	numPages=269,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00034',
+ 	title='Book 34',
+ 	year=2019,
+ 	numPages=463,
+ 	author='Author 4',
+ 	genre='Genre 34'
+}
+Magazine{
+	isbn='00155',
+	title='Magazine 155',
+	year=2012,
+	numPages=472,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00276',
+ 	title='Book 276',
+ 	year=2013,
+ 	numPages=327,
+ 	author='Author 1',
+ 	genre='Genre 276'
+}
+Book{
+	isbn='00396',
+ 	title='Book 396',
+ 	year=2018,
+ 	numPages=290,
+ 	author='Author 1',
+ 	genre='Genre 396'
+}
+Magazine{
+	isbn='00039',
+	title='Magazine 39',
+	year=2015,
+	numPages=385,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00037',
+	title='Magazine 37',
+	year=2023,
+	numPages=275,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00158',
+ 	title='Book 158',
+ 	year=2019,
+ 	numPages=238,
+ 	author='Author 3',
+ 	genre='Genre 158'
+}
+Magazine{
+	isbn='00279',
+	title='Magazine 279',
+	year=2016,
+	numPages=369,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00038',
+ 	title='Book 38',
+ 	year=2020,
+ 	numPages=436,
+ 	author='Author 3',
+ 	genre='Genre 38'
+}
+Magazine{
+	isbn='00159',
+	title='Magazine 159',
+	year=2019,
+	numPages=368,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00391',
+	title='Magazine 391',
+	year=2023,
+	numPages=405,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00270',
+ 	title='Book 270',
+ 	year=2019,
+ 	numPages=266,
+ 	author='Author 0',
+ 	genre='Genre 270'
+}
+Book{
+	isbn='00390',
+ 	title='Book 390',
+ 	year=2018,
+ 	numPages=395,
+ 	author='Author 0',
+ 	genre='Genre 390'
+}
+Magazine{
+	isbn='00031',
+	title='Magazine 31',
+	year=2014,
+	numPages=329,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00152',
+ 	title='Book 152',
+ 	year=2019,
+ 	numPages=268,
+ 	author='Author 2',
+ 	genre='Genre 152'
+}
+Magazine{
+	isbn='00273',
+	title='Magazine 273',
+	year=2012,
+	numPages=344,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00395',
+	title='Magazine 395',
+	year=2014,
+	numPages=403,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00032',
+ 	title='Book 32',
+ 	year=2023,
+ 	numPages=452,
+ 	author='Author 2',
+ 	genre='Genre 32'
+}
+Magazine{
+	isbn='00153',
+	title='Magazine 153',
+	year=2013,
+	numPages=380,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00274',
+ 	title='Book 274',
+ 	year=2017,
+ 	numPages=363,
+ 	author='Author 4',
+ 	genre='Genre 274'
+}
+Book{
+	isbn='00394',
+ 	title='Book 394',
+ 	year=2013,
+ 	numPages=461,
+ 	author='Author 4',
+ 	genre='Genre 394'
+}
+Book{
+	isbn='00150',
+ 	title='Book 150',
+ 	year=2013,
+ 	numPages=452,
+ 	author='Author 0',
+ 	genre='Genre 150'
+}
+Magazine{
+	isbn='00271',
+	title='Magazine 271',
+	year=2021,
+	numPages=382,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00393',
+	title='Magazine 393',
+	year=2017,
+	numPages=349,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00030',
+ 	title='Book 30',
+ 	year=2019,
+ 	numPages=267,
+ 	author='Author 0',
+ 	genre='Genre 30'
+}
+Magazine{
+	isbn='00151',
+	title='Magazine 151',
+	year=2023,
+	numPages=466,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00272',
+ 	title='Book 272',
+ 	year=2017,
+ 	numPages=401,
+ 	author='Author 2',
+ 	genre='Genre 272'
+}
+Book{
+	isbn='00392',
+ 	title='Book 392',
+ 	year=2010,
+ 	numPages=413,
+ 	author='Author 2',
+ 	genre='Genre 392'
+}
+Book{
+	isbn='00068',
+ 	title='Book 68',
+ 	year=2014,
+ 	numPages=234,
+ 	author='Author 3',
+ 	genre='Genre 68'
+}
+Magazine{
+	isbn='00189',
+	title='Magazine 189',
+	year=2017,
+	numPages=268,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00069',
+	title='Magazine 69',
+	year=2021,
+	numPages=483,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00066',
+ 	title='Book 66',
+ 	year=2020,
+ 	numPages=254,
+ 	author='Author 1',
+ 	genre='Genre 66'
+}
+Magazine{
+	isbn='00187',
+	title='Magazine 187',
+	year=2015,
+	numPages=275,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00067',
+	title='Magazine 67',
+	year=2014,
+	numPages=413,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00188',
+ 	title='Book 188',
+ 	year=2022,
+ 	numPages=368,
+ 	author='Author 3',
+ 	genre='Genre 188'
+}
+Book{
+	isbn='00060',
+ 	title='Book 60',
+ 	year=2022,
+ 	numPages=216,
+ 	author='Author 0',
+ 	genre='Genre 60'
+}
+Magazine{
+	isbn='00181',
+	title='Magazine 181',
+	year=2012,
+	numPages=447,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00061',
+	title='Magazine 61',
+	year=2023,
+	numPages=309,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00182',
+ 	title='Book 182',
+ 	year=2011,
+ 	numPages=497,
+ 	author='Author 2',
+ 	genre='Genre 182'
+}
+Book{
+	isbn='00180',
+ 	title='Book 180',
+ 	year=2023,
+ 	numPages=223,
+ 	author='Author 0',
+ 	genre='Genre 180'
+}
+Book{
+	isbn='00064',
+ 	title='Book 64',
+ 	year=2014,
+ 	numPages=330,
+ 	author='Author 4',
+ 	genre='Genre 64'
+}
+Magazine{
+	isbn='00185',
+	title='Magazine 185',
+	year=2022,
+	numPages=333,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00065',
+	title='Magazine 65',
+	year=2020,
+	numPages=447,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00186',
+ 	title='Book 186',
+ 	year=2014,
+ 	numPages=383,
+ 	author='Author 1',
+ 	genre='Genre 186'
+}
+Book{
+	isbn='00062',
+ 	title='Book 62',
+ 	year=2018,
+ 	numPages=264,
+ 	author='Author 2',
+ 	genre='Genre 62'
+}
+Magazine{
+	isbn='00183',
+	title='Magazine 183',
+	year=2015,
+	numPages=368,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00063',
+	title='Magazine 63',
+	year=2019,
+	numPages=500,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00184',
+ 	title='Book 184',
+ 	year=2011,
+ 	numPages=224,
+ 	author='Author 4',
+ 	genre='Genre 184'
+}
+Magazine{
+	isbn='00057',
+	title='Magazine 57',
+	year=2016,
+	numPages=207,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00178',
+ 	title='Book 178',
+ 	year=2013,
+ 	numPages=486,
+ 	author='Author 3',
+ 	genre='Genre 178'
+}
+Magazine{
+	isbn='00299',
+	title='Magazine 299',
+	year=2022,
+	numPages=311,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00058',
+ 	title='Book 58',
+ 	year=2018,
+ 	numPages=240,
+ 	author='Author 3',
+ 	genre='Genre 58'
+}
+Magazine{
+	isbn='00179',
+	title='Magazine 179',
+	year=2014,
+	numPages=417,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00055',
+	title='Magazine 55',
+	year=2023,
+	numPages=386,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00176',
+ 	title='Book 176',
+ 	year=2016,
+ 	numPages=334,
+ 	author='Author 1',
+ 	genre='Genre 176'
+}
+Magazine{
+	isbn='00297',
+	title='Magazine 297',
+	year=2023,
+	numPages=447,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00056',
+ 	title='Book 56',
+ 	year=2016,
+ 	numPages=399,
+ 	author='Author 1',
+ 	genre='Genre 56'
+}
+Magazine{
+	isbn='00177',
+	title='Magazine 177',
+	year=2019,
+	numPages=357,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00298',
+ 	title='Book 298',
+ 	year=2010,
+ 	numPages=470,
+ 	author='Author 3',
+ 	genre='Genre 298'
+}
+Magazine{
+	isbn='00059',
+	title='Magazine 59',
+	year=2022,
+	numPages=267,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00170',
+ 	title='Book 170',
+ 	year=2011,
+ 	numPages=332,
+ 	author='Author 0',
+ 	genre='Genre 170'
+}
+Magazine{
+	isbn='00291',
+	title='Magazine 291',
+	year=2010,
+	numPages=472,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00050',
+ 	title='Book 50',
+ 	year=2016,
+ 	numPages=309,
+ 	author='Author 0',
+ 	genre='Genre 50'
+}
+Magazine{
+	isbn='00171',
+	title='Magazine 171',
+	year=2022,
+	numPages=450,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00292',
+ 	title='Book 292',
+ 	year=2017,
+ 	numPages=261,
+ 	author='Author 2',
+ 	genre='Genre 292'
+}
+Book{
+	isbn='00290',
+ 	title='Book 290',
+ 	year=2010,
+ 	numPages=476,
+ 	author='Author 0',
+ 	genre='Genre 290'
+}
+Magazine{
+	isbn='00053',
+	title='Magazine 53',
+	year=2019,
+	numPages=381,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00174',
+ 	title='Book 174',
+ 	year=2022,
+ 	numPages=251,
+ 	author='Author 4',
+ 	genre='Genre 174'
+}
+Magazine{
+	isbn='00295',
+	title='Magazine 295',
+	year=2019,
+	numPages=306,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00054',
+ 	title='Book 54',
+ 	year=2020,
+ 	numPages=408,
+ 	author='Author 4',
+ 	genre='Genre 54'
+}
+Magazine{
+	isbn='00175',
+	title='Magazine 175',
+	year=2018,
+	numPages=389,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00296',
+ 	title='Book 296',
+ 	year=2013,
+ 	numPages=304,
+ 	author='Author 1',
+ 	genre='Genre 296'
+}
+Magazine{
+	isbn='00051',
+	title='Magazine 51',
+	year=2010,
+	numPages=266,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00172',
+ 	title='Book 172',
+ 	year=2017,
+ 	numPages=425,
+ 	author='Author 2',
+ 	genre='Genre 172'
+}
+Magazine{
+	isbn='00293',
+	title='Magazine 293',
+	year=2014,
+	numPages=311,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00052',
+ 	title='Book 52',
+ 	year=2010,
+ 	numPages=368,
+ 	author='Author 2',
+ 	genre='Genre 52'
+}
+Magazine{
+	isbn='00173',
+	title='Magazine 173',
+	year=2012,
+	numPages=267,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00294',
+ 	title='Book 294',
+ 	year=2016,
+ 	numPages=466,
+ 	author='Author 4',
+ 	genre='Genre 294'
+}
+Book{
+	isbn='00008',
+ 	title='Book 8',
+ 	year=2021,
+ 	numPages=329,
+ 	author='Author 3',
+ 	genre='Genre 8'
+}
+Magazine{
+	isbn='00129',
+	title='Magazine 129',
+	year=2015,
+	numPages=363,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00009',
+	title='Magazine 9',
+	year=2020,
+	numPages=341,
+	periodicity='WEEKLY'
+}
+Book{
 	isbn='00002',
  	title='Book 2',
- 	year=2010,
- 	numPages=361,
+ 	year=2012,
+ 	numPages=431,
  	author='Author 2',
  	genre='Genre 2'
 }
 Magazine{
-	isbn='00013',
-	title='Magazine 13',
-	year=2012,
-	numPages=423,
-	periodicity='WEEKLY'
+	isbn='00123',
+	title='Magazine 123',
+	year=2015,
+	numPages=258,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00244',
+ 	title='Book 244',
+ 	year=2021,
+ 	numPages=204,
+ 	author='Author 4',
+ 	genre='Genre 244'
+}
+Book{
+	isbn='00366',
+ 	title='Book 366',
+ 	year=2013,
+ 	numPages=337,
+ 	author='Author 1',
+ 	genre='Genre 366'
+}
+Magazine{
+	isbn='00487',
+	title='Magazine 487',
+	year=2022,
+	numPages=233,
+	periodicity='SEMIANNUAL'
 }
 Magazine{
 	isbn='00003',
 	title='Magazine 3',
-	year=2018,
-	numPages=313,
+	year=2021,
+	numPages=218,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00124',
+ 	title='Book 124',
+ 	year=2021,
+ 	numPages=366,
+ 	author='Author 4',
+ 	genre='Genre 124'
+}
+Magazine{
+	isbn='00245',
+	title='Magazine 245',
+	year=2021,
+	numPages=472,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00365',
+	title='Magazine 365',
+	year=2023,
+	numPages=237,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00486',
+ 	title='Book 486',
+ 	year=2010,
+ 	numPages=253,
+ 	author='Author 1',
+ 	genre='Genre 486'
+}
+Magazine{
+	isbn='00121',
+	title='Magazine 121',
+	year=2011,
+	numPages=364,
 	periodicity='MONTHLY'
 }
 Book{
-	isbn='00014',
- 	title='Book 14',
- 	year=2013,
- 	numPages=285,
+	isbn='00242',
+ 	title='Book 242',
+ 	year=2018,
+ 	numPages=498,
+ 	author='Author 2',
+ 	genre='Genre 242'
+}
+Book{
+	isbn='00364',
+ 	title='Book 364',
+ 	year=2011,
+ 	numPages=344,
  	author='Author 4',
- 	genre='Genre 14'
+ 	genre='Genre 364'
 }
 Magazine{
-	isbn='00011',
-	title='Magazine 11',
+	isbn='00485',
+	title='Magazine 485',
 	year=2015,
-	numPages=486,
+	numPages=254,
 	periodicity='MONTHLY'
 }
 Magazine{
 	isbn='00001',
 	title='Magazine 1',
-	year=2018,
-	numPages=209,
+	year=2022,
+	numPages=418,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00122',
+ 	title='Book 122',
+ 	year=2013,
+ 	numPages=329,
+ 	author='Author 2',
+ 	genre='Genre 122'
+}
+Magazine{
+	isbn='00243',
+	title='Magazine 243',
+	year=2017,
+	numPages=464,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00363',
+	title='Magazine 363',
+	year=2019,
+	numPages=345,
 	periodicity='WEEKLY'
 }
 Book{
-	isbn='00012',
- 	title='Book 12',
- 	year=2011,
- 	numPages=201,
- 	author='Author 2',
- 	genre='Genre 12'
+	isbn='00484',
+ 	title='Book 484',
+ 	year=2022,
+ 	numPages=353,
+ 	author='Author 4',
+ 	genre='Genre 484'
 }
 Book{
 	isbn='00006',
  	title='Book 6',
- 	year=2019,
- 	numPages=500,
+ 	year=2020,
+ 	numPages=263,
  	author='Author 1',
  	genre='Genre 6'
 }
 Magazine{
-	isbn='00017',
-	title='Magazine 17',
+	isbn='00127',
+	title='Magazine 127',
 	year=2023,
-	numPages=236,
-	periodicity='SEMIANNUAL'
+	numPages=499,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00248',
+ 	title='Book 248',
+ 	year=2021,
+ 	numPages=214,
+ 	author='Author 3',
+ 	genre='Genre 248'
 }
 Magazine{
 	isbn='00007',
 	title='Magazine 7',
-	year=2023,
-	numPages=201,
-	periodicity='SEMIANNUAL'
+	year=2021,
+	numPages=399,
+	periodicity='WEEKLY'
 }
 Book{
-	isbn='00018',
- 	title='Book 18',
- 	year=2015,
- 	numPages=332,
+	isbn='00128',
+ 	title='Book 128',
+ 	year=2016,
+ 	numPages=325,
  	author='Author 3',
- 	genre='Genre 18'
+ 	genre='Genre 128'
+}
+Magazine{
+	isbn='00249',
+	title='Magazine 249',
+	year=2011,
+	numPages=357,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00369',
+	title='Magazine 369',
+	year=2021,
+	numPages=204,
+	periodicity='SEMIANNUAL'
 }
 Book{
 	isbn='00004',
  	title='Book 4',
- 	year=2013,
- 	numPages=274,
+ 	year=2015,
+ 	numPages=336,
  	author='Author 4',
  	genre='Genre 4'
 }
 Magazine{
-	isbn='00015',
-	title='Magazine 15',
-	year=2019,
-	numPages=361,
+	isbn='00125',
+	title='Magazine 125',
+	year=2012,
+	numPages=492,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00246',
+ 	title='Book 246',
+ 	year=2012,
+ 	numPages=357,
+ 	author='Author 1',
+ 	genre='Genre 246'
+}
+Book{
+	isbn='00368',
+ 	title='Book 368',
+ 	year=2014,
+ 	numPages=279,
+ 	author='Author 3',
+ 	genre='Genre 368'
+}
+Magazine{
+	isbn='00489',
+	title='Magazine 489',
+	year=2016,
+	numPages=248,
 	periodicity='WEEKLY'
 }
 Magazine{
 	isbn='00005',
 	title='Magazine 5',
-	year=2017,
-	numPages=293,
+	year=2015,
+	numPages=352,
 	periodicity='WEEKLY'
 }
 Book{
-	isbn='00016',
- 	title='Book 16',
- 	year=2014,
- 	numPages=266,
+	isbn='00126',
+ 	title='Book 126',
+ 	year=2012,
+ 	numPages=399,
  	author='Author 1',
- 	genre='Genre 16'
+ 	genre='Genre 126'
+}
+Magazine{
+	isbn='00247',
+	title='Magazine 247',
+	year=2014,
+	numPages=360,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00367',
+	title='Magazine 367',
+	year=2011,
+	numPages=279,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00488',
+ 	title='Book 488',
+ 	year=2022,
+ 	numPages=379,
+ 	author='Author 3',
+ 	genre='Genre 488'
+}
+Book{
+	isbn='00240',
+ 	title='Book 240',
+ 	year=2013,
+ 	numPages=251,
+ 	author='Author 0',
+ 	genre='Genre 240'
+}
+Book{
+	isbn='00362',
+ 	title='Book 362',
+ 	year=2016,
+ 	numPages=246,
+ 	author='Author 2',
+ 	genre='Genre 362'
+}
+Magazine{
+	isbn='00483',
+	title='Magazine 483',
+	year=2011,
+	numPages=446,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00120',
+ 	title='Book 120',
+ 	year=2019,
+ 	numPages=315,
+ 	author='Author 0',
+ 	genre='Genre 120'
+}
+Magazine{
+	isbn='00241',
+	title='Magazine 241',
+	year=2021,
+	numPages=254,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00361',
+	title='Magazine 361',
+	year=2017,
+	numPages=460,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00482',
+ 	title='Book 482',
+ 	year=2014,
+ 	numPages=329,
+ 	author='Author 2',
+ 	genre='Genre 482'
+}
+Book{
+	isbn='00360',
+ 	title='Book 360',
+ 	year=2023,
+ 	numPages=480,
+ 	author='Author 0',
+ 	genre='Genre 360'
+}
+Magazine{
+	isbn='00481',
+	title='Magazine 481',
+	year=2023,
+	numPages=346,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00480',
+ 	title='Book 480',
+ 	year=2017,
+ 	numPages=240,
+ 	author='Author 0',
+ 	genre='Genre 480'
+}
+Book{
+	isbn='00118',
+ 	title='Book 118',
+ 	year=2021,
+ 	numPages=331,
+ 	author='Author 3',
+ 	genre='Genre 118'
+}
+Magazine{
+	isbn='00239',
+	title='Magazine 239',
+	year=2015,
+	numPages=454,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00119',
+	title='Magazine 119',
+	year=2020,
+	numPages=478,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00112',
+ 	title='Book 112',
+ 	year=2021,
+ 	numPages=368,
+ 	author='Author 2',
+ 	genre='Genre 112'
+}
+Magazine{
+	isbn='00233',
+	title='Magazine 233',
+	year=2022,
+	numPages=347,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00355',
+	title='Magazine 355',
+	year=2021,
+	numPages=404,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00476',
+ 	title='Book 476',
+ 	year=2011,
+ 	numPages=225,
+ 	author='Author 1',
+ 	genre='Genre 476'
+}
+Magazine{
+	isbn='00113',
+	title='Magazine 113',
+	year=2021,
+	numPages=262,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00234',
+ 	title='Book 234',
+ 	year=2016,
+ 	numPages=422,
+ 	author='Author 4',
+ 	genre='Genre 234'
+}
+Book{
+	isbn='00354',
+ 	title='Book 354',
+ 	year=2014,
+ 	numPages=414,
+ 	author='Author 4',
+ 	genre='Genre 354'
+}
+Magazine{
+	isbn='00475',
+	title='Magazine 475',
+	year=2010,
+	numPages=266,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00110',
+ 	title='Book 110',
+ 	year=2014,
+ 	numPages=433,
+ 	author='Author 0',
+ 	genre='Genre 110'
+}
+Magazine{
+	isbn='00231',
+	title='Magazine 231',
+	year=2013,
+	numPages=417,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00353',
+	title='Magazine 353',
+	year=2011,
+	numPages=248,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00474',
+ 	title='Book 474',
+ 	year=2018,
+ 	numPages=316,
+ 	author='Author 4',
+ 	genre='Genre 474'
+}
+Magazine{
+	isbn='00111',
+	title='Magazine 111',
+	year=2014,
+	numPages=314,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00232',
+ 	title='Book 232',
+ 	year=2011,
+ 	numPages=368,
+ 	author='Author 2',
+ 	genre='Genre 232'
+}
+Book{
+	isbn='00352',
+ 	title='Book 352',
+ 	year=2022,
+ 	numPages=414,
+ 	author='Author 2',
+ 	genre='Genre 352'
+}
+Magazine{
+	isbn='00473',
+	title='Magazine 473',
+	year=2023,
+	numPages=434,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00116',
+ 	title='Book 116',
+ 	year=2020,
+ 	numPages=396,
+ 	author='Author 1',
+ 	genre='Genre 116'
+}
+Magazine{
+	isbn='00237',
+	title='Magazine 237',
+	year=2020,
+	numPages=419,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00359',
+	title='Magazine 359',
+	year=2011,
+	numPages=366,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00117',
+	title='Magazine 117',
+	year=2023,
+	numPages=245,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00238',
+ 	title='Book 238',
+ 	year=2010,
+ 	numPages=494,
+ 	author='Author 3',
+ 	genre='Genre 238'
+}
+Book{
+	isbn='00358',
+ 	title='Book 358',
+ 	year=2023,
+ 	numPages=350,
+ 	author='Author 3',
+ 	genre='Genre 358'
+}
+Magazine{
+	isbn='00479',
+	title='Magazine 479',
+	year=2017,
+	numPages=365,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00114',
+ 	title='Book 114',
+ 	year=2015,
+ 	numPages=268,
+ 	author='Author 4',
+ 	genre='Genre 114'
+}
+Magazine{
+	isbn='00235',
+	title='Magazine 235',
+	year=2010,
+	numPages=407,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00357',
+	title='Magazine 357',
+	year=2014,
+	numPages=231,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00478',
+ 	title='Book 478',
+ 	year=2022,
+ 	numPages=306,
+ 	author='Author 3',
+ 	genre='Genre 478'
+}
+Magazine{
+	isbn='00115',
+	title='Magazine 115',
+	year=2019,
+	numPages=368,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00236',
+ 	title='Book 236',
+ 	year=2010,
+ 	numPages=250,
+ 	author='Author 1',
+ 	genre='Genre 236'
+}
+Book{
+	isbn='00356',
+ 	title='Book 356',
+ 	year=2015,
+ 	numPages=217,
+ 	author='Author 1',
+ 	genre='Genre 356'
+}
+Magazine{
+	isbn='00477',
+	title='Magazine 477',
+	year=2020,
+	numPages=267,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00351',
+	title='Magazine 351',
+	year=2015,
+	numPages=481,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00472',
+ 	title='Book 472',
+ 	year=2022,
+ 	numPages=436,
+ 	author='Author 2',
+ 	genre='Genre 472'
+}
+Book{
+	isbn='00230',
+ 	title='Book 230',
+ 	year=2010,
+ 	numPages=370,
+ 	author='Author 0',
+ 	genre='Genre 230'
+}
+Book{
+	isbn='00350',
+ 	title='Book 350',
+ 	year=2013,
+ 	numPages=389,
+ 	author='Author 0',
+ 	genre='Genre 350'
+}
+Magazine{
+	isbn='00471',
+	title='Magazine 471',
+	year=2016,
+	numPages=499,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00470',
+ 	title='Book 470',
+ 	year=2021,
+ 	numPages=385,
+ 	author='Author 0',
+ 	genre='Genre 470'
+}
+Book{
+	isbn='00024',
+ 	title='Book 24',
+ 	year=2013,
+ 	numPages=335,
+ 	author='Author 4',
+ 	genre='Genre 24'
+}
+Magazine{
+	isbn='00145',
+	title='Magazine 145',
+	year=2016,
+	numPages=472,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00266',
+ 	title='Book 266',
+ 	year=2013,
+ 	numPages=472,
+ 	author='Author 1',
+ 	genre='Genre 266'
+}
+Book{
+	isbn='00388',
+ 	title='Book 388',
+ 	year=2011,
+ 	numPages=403,
+ 	author='Author 3',
+ 	genre='Genre 388'
+}
+Magazine{
+	isbn='00025',
+	title='Magazine 25',
+	year=2023,
+	numPages=364,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00146',
+ 	title='Book 146',
+ 	year=2023,
+ 	numPages=201,
+ 	author='Author 1',
+ 	genre='Genre 146'
+}
+Magazine{
+	isbn='00267',
+	title='Magazine 267',
+	year=2017,
+	numPages=320,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00387',
+	title='Magazine 387',
+	year=2019,
+	numPages=394,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00022',
+ 	title='Book 22',
+ 	year=2021,
+ 	numPages=262,
+ 	author='Author 2',
+ 	genre='Genre 22'
+}
+Magazine{
+	isbn='00143',
+	title='Magazine 143',
+	year=2023,
+	numPages=244,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00264',
+ 	title='Book 264',
+ 	year=2015,
+ 	numPages=412,
+ 	author='Author 4',
+ 	genre='Genre 264'
+}
+Book{
+	isbn='00386',
+ 	title='Book 386',
+ 	year=2011,
+ 	numPages=235,
+ 	author='Author 1',
+ 	genre='Genre 386'
+}
+Magazine{
+	isbn='00023',
+	title='Magazine 23',
+	year=2014,
+	numPages=403,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00144',
+ 	title='Book 144',
+ 	year=2013,
+ 	numPages=464,
+ 	author='Author 4',
+ 	genre='Genre 144'
+}
+Magazine{
+	isbn='00265',
+	title='Magazine 265',
+	year=2020,
+	numPages=296,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00385',
+	title='Magazine 385',
+	year=2022,
+	numPages=472,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00028',
+ 	title='Book 28',
+ 	year=2021,
+ 	numPages=269,
+ 	author='Author 3',
+ 	genre='Genre 28'
+}
+Magazine{
+	isbn='00149',
+	title='Magazine 149',
+	year=2021,
+	numPages=374,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00029',
+	title='Magazine 29',
+	year=2015,
+	numPages=250,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00026',
+ 	title='Book 26',
+ 	year=2016,
+ 	numPages=477,
+ 	author='Author 1',
+ 	genre='Genre 26'
+}
+Magazine{
+	isbn='00147',
+	title='Magazine 147',
+	year=2019,
+	numPages=310,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00268',
+ 	title='Book 268',
+ 	year=2016,
+ 	numPages=451,
+ 	author='Author 3',
+ 	genre='Genre 268'
+}
+Magazine{
+	isbn='00027',
+	title='Magazine 27',
+	year=2013,
+	numPages=410,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00148',
+ 	title='Book 148',
+ 	year=2017,
+ 	numPages=393,
+ 	author='Author 3',
+ 	genre='Genre 148'
+}
+Magazine{
+	isbn='00269',
+	title='Magazine 269',
+	year=2022,
+	numPages=286,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00389',
+	title='Magazine 389',
+	year=2010,
+	numPages=223,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00380',
+ 	title='Book 380',
+ 	year=2016,
+ 	numPages=463,
+ 	author='Author 0',
+ 	genre='Genre 380'
 }
 Book{
 	isbn='00020',
  	title='Book 20',
  	year=2020,
- 	numPages=378,
+ 	numPages=328,
  	author='Author 0',
  	genre='Genre 20'
+}
+Magazine{
+	isbn='00141',
+	title='Magazine 141',
+	year=2012,
+	numPages=311,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00262',
+ 	title='Book 262',
+ 	year=2021,
+ 	numPages=488,
+ 	author='Author 2',
+ 	genre='Genre 262'
+}
+Book{
+	isbn='00384',
+ 	title='Book 384',
+ 	year=2020,
+ 	numPages=325,
+ 	author='Author 4',
+ 	genre='Genre 384'
+}
+Magazine{
+	isbn='00021',
+	title='Magazine 21',
+	year=2016,
+	numPages=226,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00142',
+ 	title='Book 142',
+ 	year=2023,
+ 	numPages=387,
+ 	author='Author 2',
+ 	genre='Genre 142'
+}
+Magazine{
+	isbn='00263',
+	title='Magazine 263',
+	year=2012,
+	numPages=355,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00383',
+	title='Magazine 383',
+	year=2011,
+	numPages=307,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00260',
+ 	title='Book 260',
+ 	year=2013,
+ 	numPages=493,
+ 	author='Author 0',
+ 	genre='Genre 260'
+}
+Book{
+	isbn='00382',
+ 	title='Book 382',
+ 	year=2015,
+ 	numPages=321,
+ 	author='Author 2',
+ 	genre='Genre 382'
+}
+Book{
+	isbn='00140',
+ 	title='Book 140',
+ 	year=2013,
+ 	numPages=419,
+ 	author='Author 0',
+ 	genre='Genre 140'
+}
+Magazine{
+	isbn='00261',
+	title='Magazine 261',
+	year=2017,
+	numPages=228,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00381',
+	title='Magazine 381',
+	year=2019,
+	numPages=340,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00019',
+	title='Magazine 19',
+	year=2023,
+	numPages=336,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00013',
+	title='Magazine 13',
+	year=2018,
+	numPages=214,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00134',
+ 	title='Book 134',
+ 	year=2016,
+ 	numPages=400,
+ 	author='Author 4',
+ 	genre='Genre 134'
+}
+Magazine{
+	isbn='00255',
+	title='Magazine 255',
+	year=2016,
+	numPages=475,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00377',
+	title='Magazine 377',
+	year=2019,
+	numPages=409,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00498',
+ 	title='Book 498',
+ 	year=2021,
+ 	numPages=486,
+ 	author='Author 3',
+ 	genre='Genre 498'
+}
+Book{
+	isbn='00014',
+ 	title='Book 14',
+ 	year=2016,
+ 	numPages=221,
+ 	author='Author 4',
+ 	genre='Genre 14'
+}
+Magazine{
+	isbn='00135',
+	title='Magazine 135',
+	year=2014,
+	numPages=290,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00256',
+ 	title='Book 256',
+ 	year=2014,
+ 	numPages=464,
+ 	author='Author 1',
+ 	genre='Genre 256'
+}
+Book{
+	isbn='00376',
+ 	title='Book 376',
+ 	year=2023,
+ 	numPages=297,
+ 	author='Author 1',
+ 	genre='Genre 376'
+}
+Magazine{
+	isbn='00497',
+	title='Magazine 497',
+	year=2022,
+	numPages=206,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00011',
+	title='Magazine 11',
+	year=2011,
+	numPages=222,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00132',
+ 	title='Book 132',
+ 	year=2023,
+ 	numPages=284,
+ 	author='Author 2',
+ 	genre='Genre 132'
+}
+Magazine{
+	isbn='00253',
+	title='Magazine 253',
+	year=2015,
+	numPages=413,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00375',
+	title='Magazine 375',
+	year=2017,
+	numPages=272,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00496',
+ 	title='Book 496',
+ 	year=2020,
+ 	numPages=428,
+ 	author='Author 1',
+ 	genre='Genre 496'
+}
+Book{
+	isbn='00012',
+ 	title='Book 12',
+ 	year=2015,
+ 	numPages=261,
+ 	author='Author 2',
+ 	genre='Genre 12'
+}
+Magazine{
+	isbn='00133',
+	title='Magazine 133',
+	year=2023,
+	numPages=398,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00254',
+ 	title='Book 254',
+ 	year=2018,
+ 	numPages=313,
+ 	author='Author 4',
+ 	genre='Genre 254'
+}
+Book{
+	isbn='00374',
+ 	title='Book 374',
+ 	year=2022,
+ 	numPages=345,
+ 	author='Author 4',
+ 	genre='Genre 374'
+}
+Magazine{
+	isbn='00495',
+	title='Magazine 495',
+	year=2011,
+	numPages=358,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00017',
+	title='Magazine 17',
+	year=2015,
+	numPages=327,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00138',
+ 	title='Book 138',
+ 	year=2022,
+ 	numPages=491,
+ 	author='Author 3',
+ 	genre='Genre 138'
+}
+Magazine{
+	isbn='00259',
+	title='Magazine 259',
+	year=2011,
+	numPages=341,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00018',
+ 	title='Book 18',
+ 	year=2012,
+ 	numPages=431,
+ 	author='Author 3',
+ 	genre='Genre 18'
+}
+Magazine{
+	isbn='00139',
+	title='Magazine 139',
+	year=2013,
+	numPages=452,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00015',
+	title='Magazine 15',
+	year=2021,
+	numPages=253,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00136',
+ 	title='Book 136',
+ 	year=2017,
+ 	numPages=211,
+ 	author='Author 1',
+ 	genre='Genre 136'
+}
+Magazine{
+	isbn='00257',
+	title='Magazine 257',
+	year=2014,
+	numPages=451,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00379',
+	title='Magazine 379',
+	year=2014,
+	numPages=345,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00016',
+ 	title='Book 16',
+ 	year=2017,
+ 	numPages=442,
+ 	author='Author 1',
+ 	genre='Genre 16'
+}
+Magazine{
+	isbn='00137',
+	title='Magazine 137',
+	year=2019,
+	numPages=490,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00258',
+ 	title='Book 258',
+ 	year=2014,
+ 	numPages=357,
+ 	author='Author 3',
+ 	genre='Genre 258'
+}
+Book{
+	isbn='00378',
+ 	title='Book 378',
+ 	year=2017,
+ 	numPages=413,
+ 	author='Author 3',
+ 	genre='Genre 378'
+}
+Magazine{
+	isbn='00499',
+	title='Magazine 499',
+	year=2013,
+	numPages=451,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00490',
+ 	title='Book 490',
+ 	year=2016,
+ 	numPages=318,
+ 	author='Author 0',
+ 	genre='Genre 490'
+}
+Book{
+	isbn='00130',
+ 	title='Book 130',
+ 	year=2018,
+ 	numPages=242,
+ 	author='Author 0',
+ 	genre='Genre 130'
+}
+Magazine{
+	isbn='00251',
+	title='Magazine 251',
+	year=2022,
+	numPages=437,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00373',
+	title='Magazine 373',
+	year=2020,
+	numPages=489,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00494',
+ 	title='Book 494',
+ 	year=2017,
+ 	numPages=216,
+ 	author='Author 4',
+ 	genre='Genre 494'
 }
 Book{
 	isbn='00010',
  	title='Book 10',
- 	year=2016,
- 	numPages=475,
+ 	year=2019,
+ 	numPages=388,
  	author='Author 0',
  	genre='Genre 10'
 }
+Magazine{
+	isbn='00131',
+	title='Magazine 131',
+	year=2015,
+	numPages=217,
+	periodicity='MONTHLY'
+}
 Book{
-	isbn='00021',
- 	title='Book 21',
+	isbn='00252',
+ 	title='Book 252',
+ 	year=2010,
+ 	numPages=457,
+ 	author='Author 2',
+ 	genre='Genre 252'
+}
+Book{
+	isbn='00372',
+ 	title='Book 372',
+ 	year=2021,
+ 	numPages=379,
+ 	author='Author 2',
+ 	genre='Genre 372'
+}
+Magazine{
+	isbn='00493',
+	title='Magazine 493',
+	year=2021,
+	numPages=369,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00371',
+	title='Magazine 371',
+	year=2014,
+	numPages=458,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00492',
+ 	title='Book 492',
+ 	year=2020,
+ 	numPages=288,
+ 	author='Author 2',
+ 	genre='Genre 492'
+}
+Book{
+	isbn='00250',
+ 	title='Book 250',
+ 	year=2015,
+ 	numPages=274,
+ 	author='Author 0',
+ 	genre='Genre 250'
+}
+Book{
+	isbn='00370',
+ 	title='Book 370',
+ 	year=2020,
+ 	numPages=209,
+ 	author='Author 0',
+ 	genre='Genre 370'
+}
+Magazine{
+	isbn='00491',
+	title='Magazine 491',
+	year=2011,
+	numPages=327,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00088',
+ 	title='Book 88',
+ 	year=2013,
+ 	numPages=424,
+ 	author='Author 3',
+ 	genre='Genre 88'
+}
+Magazine{
+	isbn='00089',
+	title='Magazine 89',
+	year=2010,
+	numPages=471,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00082',
+ 	title='Book 82',
+ 	year=2022,
+ 	numPages=225,
+ 	author='Author 2',
+ 	genre='Genre 82'
+}
+Magazine{
+	isbn='00083',
+	title='Magazine 83',
+	year=2014,
+	numPages=292,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00080',
+ 	title='Book 80',
+ 	year=2017,
+ 	numPages=273,
+ 	author='Author 0',
+ 	genre='Genre 80'
+}
+Magazine{
+	isbn='00081',
+	title='Magazine 81',
+	year=2022,
+	numPages=450,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00086',
+ 	title='Book 86',
+ 	year=2013,
+ 	numPages=379,
+ 	author='Author 1',
+ 	genre='Genre 86'
+}
+Magazine{
+	isbn='00087',
+	title='Magazine 87',
+	year=2012,
+	numPages=222,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00084',
+ 	title='Book 84',
+ 	year=2015,
+ 	numPages=237,
+ 	author='Author 4',
+ 	genre='Genre 84'
+}
+Magazine{
+	isbn='00085',
+	title='Magazine 85',
+	year=2023,
+	numPages=484,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00079',
+	title='Magazine 79',
+	year=2010,
+	numPages=276,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00077',
+	title='Magazine 77',
+	year=2012,
+	numPages=372,
+	periodicity='WEEKLY'
+}
+Book{
+	isbn='00198',
+ 	title='Book 198',
+ 	year=2015,
+ 	numPages=222,
+ 	author='Author 3',
+ 	genre='Genre 198'
+}
+Book{
+	isbn='00078',
+ 	title='Book 78',
+ 	year=2015,
+ 	numPages=405,
+ 	author='Author 3',
+ 	genre='Genre 78'
+}
+Magazine{
+	isbn='00199',
+	title='Magazine 199',
+	year=2022,
+	numPages=439,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00071',
+	title='Magazine 71',
+	year=2014,
+	numPages=255,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00192',
+ 	title='Book 192',
+ 	year=2013,
+ 	numPages=424,
+ 	author='Author 2',
+ 	genre='Genre 192'
+}
+Book{
+	isbn='00072',
+ 	title='Book 72',
+ 	year=2015,
+ 	numPages=496,
+ 	author='Author 2',
+ 	genre='Genre 72'
+}
+Magazine{
+	isbn='00193',
+	title='Magazine 193',
+	year=2015,
+	numPages=439,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00190',
+ 	title='Book 190',
  	year=2018,
- 	numPages=234,
- 	author='Author 20',
- 	genre='Genre 20'
+ 	numPages=338,
+ 	author='Author 0',
+ 	genre='Genre 190'
+}
+Book{
+	isbn='00070',
+ 	title='Book 70',
+ 	year=2017,
+ 	numPages=305,
+ 	author='Author 0',
+ 	genre='Genre 70'
+}
+Magazine{
+	isbn='00191',
+	title='Magazine 191',
+	year=2010,
+	numPages=387,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00075',
+	title='Magazine 75',
+	year=2017,
+	numPages=282,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00196',
+ 	title='Book 196',
+ 	year=2022,
+ 	numPages=412,
+ 	author='Author 1',
+ 	genre='Genre 196'
+}
+Book{
+	isbn='00076',
+ 	title='Book 76',
+ 	year=2018,
+ 	numPages=241,
+ 	author='Author 1',
+ 	genre='Genre 76'
+}
+Magazine{
+	isbn='00197',
+	title='Magazine 197',
+	year=2022,
+	numPages=294,
+	periodicity='SEMIANNUAL'
+}
+Magazine{
+	isbn='00073',
+	title='Magazine 73',
+	year=2013,
+	numPages=378,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00194',
+ 	title='Book 194',
+ 	year=2018,
+ 	numPages=442,
+ 	author='Author 4',
+ 	genre='Genre 194'
+}
+Book{
+	isbn='00074',
+ 	title='Book 74',
+ 	year=2020,
+ 	numPages=297,
+ 	author='Author 4',
+ 	genre='Genre 74'
+}
+Magazine{
+	isbn='00195',
+	title='Magazine 195',
+	year=2023,
+	numPages=214,
+	periodicity='MONTHLY'
+}
+Magazine{
+	isbn='00099',
+	title='Magazine 99',
+	year=2010,
+	numPages=389,
+	periodicity='WEEKLY'
+}
+Magazine{
+	isbn='00093',
+	title='Magazine 93',
+	year=2016,
+	numPages=443,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00094',
+ 	title='Book 94',
+ 	year=2011,
+ 	numPages=410,
+ 	author='Author 4',
+ 	genre='Genre 94'
+}
+Magazine{
+	isbn='00091',
+	title='Magazine 91',
+	year=2018,
+	numPages=357,
+	periodicity='SEMIANNUAL'
+}
+Book{
+	isbn='00092',
+ 	title='Book 92',
+ 	year=2016,
+ 	numPages=326,
+ 	author='Author 2',
+ 	genre='Genre 92'
+}
+Magazine{
+	isbn='00097',
+	title='Magazine 97',
+	year=2012,
+	numPages=236,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00098',
+ 	title='Book 98',
+ 	year=2017,
+ 	numPages=220,
+ 	author='Author 3',
+ 	genre='Genre 98'
+}
+Magazine{
+	isbn='00095',
+	title='Magazine 95',
+	year=2022,
+	numPages=404,
+	periodicity='MONTHLY'
+}
+Book{
+	isbn='00096',
+ 	title='Book 96',
+ 	year=2020,
+ 	numPages=420,
+ 	author='Author 1',
+ 	genre='Genre 96'
+}
+Book{
+	isbn='00090',
+ 	title='Book 90',
+ 	year=2011,
+ 	numPages=338,
+ 	author='Author 0',
+ 	genre='Genre 90'
 }
