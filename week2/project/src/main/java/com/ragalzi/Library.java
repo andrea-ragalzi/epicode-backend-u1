@@ -9,19 +9,17 @@ import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 
 public class Library extends HashMap<String, Publication> {
-    private int counter;
     private String filename;
 
     public Library(String filename) {
-        counter = 0;
         this.filename = filename;
     }
 
     private String generateISBN() {
-        return String.format("%05d", ++this.counter);
+        return String.format("%05d", this.values().size() + 1);
     }
 
-    public Publication add(Publication publication) {
+    public Publication put(Publication publication) {
         publication.setIsbn(this.generateISBN());
         return super.put(publication.getIsbn(), publication);
     }
@@ -58,7 +56,7 @@ public class Library extends HashMap<String, Publication> {
                 .toList();
     }
 
-    public void save(String filename) throws IOException, IndexOutOfBoundsException {
+    public void saveToFile(String filename) throws IOException, IndexOutOfBoundsException {
         if (filename == null) {
             filename = this.filename;
         }
@@ -66,7 +64,7 @@ public class Library extends HashMap<String, Publication> {
                 new File(filename), this.toString(), "UTF-8");
     }
 
-    public void load(String filename) throws IOException, IndexOutOfBoundsException, IllegalArgumentException {
+    public void loadFromFile(String filename) throws IOException, IndexOutOfBoundsException, IllegalArgumentException {
         if (filename == null) {
             filename = this.filename;
         }
@@ -80,10 +78,10 @@ public class Library extends HashMap<String, Publication> {
                 tmpLines.add(line);
             } else if (line.equals("}")) {
                 if (tmpLines.get(0).startsWith("Book{")) {
-                    Book book = Book.createFromLines(tmpLines);
+                    Book book = new Book(tmpLines);
                     this.put(book.getIsbn(), book);
                 } else if (tmpLines.get(0).startsWith("Magazine{")) {
-                    Magazine magazine = Magazine.createFromLines(tmpLines);
+                    Magazine magazine = new Magazine(tmpLines);
                     this.put(magazine.getIsbn(), magazine);
                 }
                 tmpLines.clear();
