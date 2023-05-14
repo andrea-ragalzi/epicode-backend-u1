@@ -9,7 +9,7 @@ public final class App {
     public static void main(String[] args) throws IOException {
         Library library = new Library("library1.txt");
         Random rand = new Random();
-        IntStream.range(1, 21)
+        IntStream.range(1, 501)
                 .forEach(i -> {
                     Publication publication = null;
                     if (i % 2 == 0) {
@@ -29,9 +29,9 @@ public final class App {
                                 rand.nextInt(301) + 200,
                                 periodicity);
                     }
-                    library.add(publication);
+                    library.put(publication);
                 });
-        library.add(
+        library.put(
                 new Book(
                         "Book 21",
                         rand.nextInt(14) + 2010,
@@ -39,9 +39,9 @@ public final class App {
                         "Author 20",
                         "Genre 20"));
         try {
-            library.save(null);
-            library.load(null);
-            library.save("library2.txt");
+            library.saveToFile(null);
+            library.loadFromFile(null);
+            library.saveToFile("library2.txt");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (IndexOutOfBoundsException e) {
