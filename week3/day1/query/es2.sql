@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM fattura WHERE iva = 20;
