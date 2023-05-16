@@ -1,0 +1,10 @@
+<persistence-unit name="my-jpa-app" transaction-type="RESOURCE_LOCAL">
+    <class>com.example.MyEntity</class>
+    <properties>
+        <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+        <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/jpadbtest" />
+        <property name="javax.persistence.jdbc.user" value="root" />
+        <property name="javax.persistence.jdbc.password" value="root" />
+        <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+    </properties>
+</persistence-unit>
