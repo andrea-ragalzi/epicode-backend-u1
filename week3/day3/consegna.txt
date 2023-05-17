@@ -1,0 +1,52 @@
+Si vuole creare una applicazione per la gestione degli eventi utilizzando la tecnologia JPA e Hibernate.
+
+- Creare un progetto GestioneEventi abilitandolo a Maven e JPA tramite i tool di Eclipse.
+
+- Configurare il file pom.xml con tutte le dipendenze necessarie ad utilizzare JPA e Hibernate, oltre ad altre dipendenze utili al progetto come logback.
+
+- Creare un nuovo database PostgreSQL denominato gestioneventi che verrà collegato all'applicazione.
+
+- Aggiungere un file persistence.xml alla cartella src/META-INF/ contentente le impostazioni necessarie al collegamento con il db e all'utilizzo della funzione di update automatico dei DDL.
+
+- Aggiungere al progetto la seguente classe in un apposito package utils per utilizzare in modo più agevole l'entityManagerFactory:
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class JpaUtil {
+
+	private static final EntityManagerFactory entityManagerFactory;
+
+	static {
+		try {
+			entityManagerFactory = Persistence
+					.createEntityManagerFactory("simplejpa");
+		} catch (Throwable ex) {
+			System.err.println("Initial EntityManagerFactory creation failed."
+					+ ex);
+			throw new ExceptionInInitializerError(ex);
+		}
+	}
+
+	public static EntityManagerFactory getEntityManagerFactory() {
+		return entityManagerFactory;
+	}
+
+}
+
+- Implementare la classe Evento con le seguenti proprietà e usare le annotations per renderla una entity JPA:
+
+	- id (chiave primaria)
+	- titolo
+	- dataEvento
+	- descrizione
+	- tipoEvento [PUBBLICO, PRIVATO]
+	- numeroMassimoPartecipanti
+
+Aggiungere costruttori, getters e setters...
+
+- Implementare una classe EventoDAO che impieghi l'entitymanager ed implementare i seguenti metodi:
+	- save
+	- getById
+	- delete
+	- refresh
