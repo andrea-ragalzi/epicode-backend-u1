@@ -27,7 +27,7 @@ public class App {
         // inserisciLocationCasuali(1000);
         // inserisciPersoneCasuali(10000);
         // inserisciEventiCasuali(100);
-        inserisciPartecipazioniCasuali(1000);
+        // inserisciPartecipazioniCasuali(10000);
     }
 
     public static void inserisciLocationCasuali(int n) {
