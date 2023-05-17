@@ -1,0 +1,35 @@
+Esercizio #1
+Si faccia riferimento all'applicazione per la gestione degli eventi introdotta nel giorno 1.
+Estendere il modello degli oggetti persistenti aggiungendo le seguenti entità mappate con annotazioni JPA e gestione delle primary keys tramite apposite sequences:
+
+Persona
+- Id
+- Nome
+- Cognome
+- Email
+- Data di nascita
+- Sesso[Maschio, Femmina]
+- ListaPartecipazioni (ordinata per dataEvento)
+
+Location
+- Id 
+- Nome
+- Città
+
+Partecipazione
+- id
+- Persona
+- Evento
+- Stato [CONFERMATA, DA_CONFERMARE]
+
+Modificare la classe Evento realizzata precedentemente aggiungendo le seguenti associazioni persistenti:
+- Set<Partecipazione>
+- Location
+
+Per tutte le entitità aggiungere costruttori e getters/setters necessari
+
+Mappare le relazioni impostando in modo corretto la politica di cascading (es. se un evento viene eliminato, eliminare tutte le partecipazioni associate.
+
+Creare le classi PersonaDAO, LocationDAO e PartecipazioneDAO in modo analogo a quanto già fatto per la classe EventoDAO.
+
+Creare una main che, impiegando le classi DAO, salvi almeno una persona, una location ed un evento a cui partecipi la persona inserita.
