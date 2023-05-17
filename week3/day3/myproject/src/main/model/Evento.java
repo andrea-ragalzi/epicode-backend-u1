@@ -18,10 +18,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "eventi")
 public class Evento {
-
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "evento_generator")
     @SequenceGenerator(name = "evento_generator", sequenceName = "evento_seq", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "evento_generator")
     @Column(name = "numero_evento", unique = true, nullable = false)
     private Long numeroEvento;
 
