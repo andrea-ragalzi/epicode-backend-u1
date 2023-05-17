@@ -15,8 +15,8 @@ import javax.persistence.Table;
 @Table(name = "partecipazioni")
 public class Partecipazione {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "partecipazione_generator")
     @SequenceGenerator(name = "partecipazione_generator", sequenceName = "partecipazione_seq", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "partecipazione_generator")
     private Long id;
 
     @ManyToOne(cascade = CascadeType.ALL)
