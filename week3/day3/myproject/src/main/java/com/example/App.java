@@ -24,10 +24,10 @@ public class App {
     static EntityManager em = emf.createEntityManager();
 
     public static void main(String[] args) {
-        // inserisciLocationCasuali(1000);
-        // inserisciPersoneCasuali(10000);
-        // inserisciEventiCasuali(100);
-        // inserisciPartecipazioniCasuali(10000);
+        inserisciLocationCasuali(5);
+        inserisciPersoneCasuali(30);
+        inserisciEventiCasuali(10);
+        inserisciPartecipazioniCasuali(20);
     }
 
     public static void inserisciLocationCasuali(int n) {
@@ -65,8 +65,8 @@ public class App {
             String emailCasuale = nomeCasuale.toLowerCase() + "." + cognomeCasuale.toLowerCase() + "@example.com";
             LocalDate dataNascitaCasuale = LocalDate.of(random.nextInt(50) + 1950, random.nextInt(12) + 1,
                     random.nextInt(28) + 1);
-            Sesso sessoCasuale = random.nextBoolean() ? Sesso.MASCHIO : Sesso.FEMMINA;
-            Persona persona = new Persona(nomeCasuale, cognomeCasuale, emailCasuale, dataNascitaCasuale, sessoCasuale);
+                    Sesso sesso = Sesso.values()[random.nextInt(Sesso.values().length)];
+            Persona persona = new Persona(nomeCasuale, cognomeCasuale, emailCasuale, dataNascitaCasuale, sesso);
             em.getTransaction().begin();
             em.persist(persona);
             em.getTransaction().commit();
