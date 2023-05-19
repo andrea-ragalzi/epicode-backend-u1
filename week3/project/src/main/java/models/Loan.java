@@ -48,7 +48,6 @@ public class Loan {
         this.endDate = endDate;
         this.returnDate = returnDate;
     }
-
     public Loan(Long id, User user, Publication publication,
             LocalDate startDate, LocalDate endDate, LocalDate returnDate) {
         this.id = id;
