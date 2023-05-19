@@ -58,7 +58,8 @@ public class LoanDAO {
         List<Loan> loans = null;
         try {
             em.getTransaction().begin();
-            TypedQuery<Loan> query = em.createQuery("SELECT l FROM Loan l", Loan.class);
+            TypedQuery<Loan> query = em.createQuery(
+                    "SELECT l FROM Loan l", Loan.class);
             loans = query.getResultList();
             em.getTransaction().commit();
         } catch (Exception e) {
@@ -117,7 +118,8 @@ public class LoanDAO {
         List<Loan> loans = null;
         try {
             em.getTransaction().begin();
-            TypedQuery<Loan> query = em.createQuery("SELECT l FROM Loan l WHERE l.user.cardNumber = :cardNumber",
+            TypedQuery<Loan> query = em.createQuery(
+                    "SELECT l FROM Loan l WHERE l.user.cardNumber = :cardNumber",
                     Loan.class);
             query.setParameter("cardNumber", cardNumber);
             loans = query.getResultList();
