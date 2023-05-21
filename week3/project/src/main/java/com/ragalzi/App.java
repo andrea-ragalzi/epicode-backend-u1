@@ -6,10 +6,10 @@ import java.util.List;
 import java.util.Random;
 
 import models.Book;
-import models.Library;
 import models.Magazine;
 import models.Publication;
 import models.User;
+import utils.Library;
 import dao.LoanDAO;
 import dao.PublicationDAO;
 import dao.UserDAO;
