@@ -8,7 +8,9 @@ import javax.persistence.TypedQuery;
 import models.Publication;
 import utils.JpaUtil;
 
-public class PublicationDAO {
+import interfaces.IPublicationDAO;
+
+public class PublicationDAO implements IPublicationDAO {
 
     public void save(Publication publication) {
         EntityManager em = JpaUtil.getEntityManagerFactory().createEntityManager();

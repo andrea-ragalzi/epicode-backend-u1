@@ -8,7 +8,9 @@ import javax.persistence.TypedQuery;
 import models.User;
 import utils.JpaUtil;
 
-public class UserDAO {
+import interfaces.IUserDAO;
+
+public class UserDAO implements IUserDAO {
     public void save(User user) {
         EntityManager em = JpaUtil.getEntityManagerFactory().createEntityManager();
         try {
@@ -105,6 +107,25 @@ public class UserDAO {
             System.out.println(
                     String.format(
                             "Error removing user: %s",
+                            e.getMessage()));
+            em.getTransaction().rollback();
+            System.out.println(e.getMessage());
+        } finally {
+            em.close();
+        }
+    }
+
+    public void update(User user) {
+        EntityManager em = JpaUtil.getEntityManagerFactory().createEntityManager();
+        try {
+            em.getTransaction().begin();
+            em.merge(user);
+            em.getTransaction().commit();
+        } catch (Exception e) {
+            em.getTransaction().rollback();
+            System.out.println(
+                    String.format(
+                            "Error updating user: %s",
                             e.getMessage()));
             em.getTransaction().rollback();
             System.out.println(e.getMessage());

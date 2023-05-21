@@ -8,7 +8,9 @@ import javax.persistence.TypedQuery;
 import models.Loan;
 import utils.JpaUtil;
 
-public class LoanDAO {
+import interfaces.ILoanDAO;
+
+public class LoanDAO implements ILoanDAO {
     public void save(Loan loan) {
         EntityManager em = JpaUtil.getEntityManagerFactory().createEntityManager();
         try {
