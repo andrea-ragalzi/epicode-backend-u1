@@ -42,7 +42,7 @@ public abstract class Publication {
         return this.isbn;
     }
 
-    protected void setIsbn(String isbn) {
+    public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
 
