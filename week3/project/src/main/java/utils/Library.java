@@ -1,9 +1,13 @@
-package models;
+package utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
+
+import models.Book;
+import models.Magazine;
+import models.Publication;
 
 public class Library extends HashMap<String, Publication> {
 
